@@ -1,5 +1,6 @@
 import './App.css'
 import BasicTable from './components/BasicTable'
+import ColumnHiding from './components/ColumnHiding'
 import ColumnOrder from './components/ColumnOrder'
 import FilteringTable from './components/FilteringTable'
 import PaginationTable from './components/PaginationTable'
@@ -10,7 +11,7 @@ function App() {
   console.log('huhuhuh')
   return (
     <div>
-      <ColumnOrder />
+      <ColumnHiding />
     </div>
   )
 }
